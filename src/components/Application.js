@@ -2,7 +2,16 @@ import React from "react";
 
 import "components/Application.scss";
 
+import { useState } from "react";
+
+
+
+
 export default function Application(props) {
+
+  const [day, setDay] = useState("Monday");
+
+
   return (
     <main className="layout">
       <section className="sidebar">
